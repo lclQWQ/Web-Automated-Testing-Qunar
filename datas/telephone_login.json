@@ -1,0 +1,8 @@
+{
+ "login_001": {"tele": "17340220730","pwd": "li123456789","expect": null,"true_case": true},
+  "login_002": {"tele": "","pwd": "li123456789","expect": "请输入手机/邮箱/用户名","true_case": false},
+  "login_003": {"tele": "17340220730","pwd": "","expect": "请输入密码","true_case": false},
+  "login_004": {"tele": "173402207300","pwd": "li123456789","expect": "用户名或密码错误","true_case": false},
+  "login_005": {"tele": "17340220730","pwd": "li12345678","expect": "用户名或密码错误","true_case": false}
+
+}

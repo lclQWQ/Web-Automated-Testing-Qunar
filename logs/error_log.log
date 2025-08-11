@@ -1,0 +1,5 @@
+2025-06-24 10:17:01 ERROR    [root] test_buy_tickets.py:76 - False is not true,提交订单失败
+2025-06-24 10:18:34 ERROR    [root] test_buy_tickets.py:73 - False is not true,回退初始页面失败
+2025-06-24 10:18:45 ERROR    [root] test_buy_tickets.py:92 - False is not true,回退初始页面失败
+2025-06-24 10:19:30 ERROR    [root] test_buy_tickets.py:92 - False is not true,回退初始页面失败
+2025-06-24 10:28:59 ERROR    [root] test_buy_tickets.py:93 - False is not true,回退初始页面失败

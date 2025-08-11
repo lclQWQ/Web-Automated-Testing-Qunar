@@ -1,0 +1,33 @@
+{
+
+  "buy_tickets_002": {
+    "from_station": "重庆",
+    "to_station": "湖南",
+    "date": "2025-06-30",
+    "name": "李成龙",
+    "id_card": "",
+    "tele": "17340220730",
+    "true_case": false,
+    "expect": "请正确填写所有内容"
+  },
+  "buy_tickets_003": {
+    "from_station": "重庆",
+    "to_station": "上海",
+    "date": "2025-06-28",
+    "name": "李成龙",
+    "id_card": "511028200011188517",
+    "tele": "",
+    "true_case": false,
+    "expect": "请正确填写所有内容"
+  },
+    "buy_tickets_001": {
+    "from_station": "重庆",
+    "to_station": "贵阳",
+    "date": "2025-06-29",
+    "name": "李成龙",
+    "id_card": "511028200011188517",
+    "tele": "17340220730",
+    "true_case": true,
+    "expect": null
+  }
+}
