@@ -22,7 +22,12 @@ class Base:
         :return: 元素查找方法
         """
         self.logger.info("查找{}".format(loc))
-        return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+        try:
+            return WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(*loc))
+        except Exception as e:
+            self.logger.error("查找元素失败，失败原因为{}".format(e))
+
+            raise e
 
     # 点击元素
     def base_click(self, loc):
